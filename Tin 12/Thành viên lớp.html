@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành viên lớp</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 220px;
+            background: #004466;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            box-shadow: 3px 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .sidebar a {
+            display: block;
+            color:  white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            margin: 10px 0;
+            transition: 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .sidebar a:hover {
+            background: #00aabb;
+        }
+        .content {
+            margin-left: 240px;
+            padding: 40px;
+            width: calc(100% - 240px);
+            text-align: center;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #61dafb;
+            font-size: 50px;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid  white;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #004466;
+            color: white ;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="Trang chủ.html" target="_blank">🏠 Trang chủ</a>
+        <a href="Hoạt động.html" target="_blank">🎉 Hoạt động</a>
+        <a href="Thành viên lớp.html" target="_blank">👥 Thành viên lớp</a>
+    </div>
+    <div class="content">
+        <h1 color="#61dafb">Thành viên lớp</h1>
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Chức vụ</th>
+                <th>Chi tiết</th>
+            </tr>
+                    <tr bgcolor="#FAFAFA" >
+                        <td align="center">1</td>
+                        <td >Lê Huỳnh Duy Anh</td>
+                        <td align="center" >25/06/2007</td>
+                        <td  align="center"></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >2</td>
+                        <td  >Nguyễn Việt Anh</td>
+                        <td align="center" >29/07/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA" >
+                        <td align="center">3</td>
+                        <td>Phạm Đào Quốc Anh</td>
+                        <td align="center">20/05/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <td align="center">4</td>
+                        <td>Lương Hồng Kim Bảo</td>
+                        <td align="center">14/12/2007</td>
+                        <td align="center"></td>
+                        <td align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center" >5</td>
+                        <td>Ngô Quốc Bình</td>
+                        <td align="center" >17/11/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >6</td>
+                        <td>Huỳnh Ngọc Lan Chi</td>
+                        <td align="center"  >26/12/2007</td>
+                        <td></td>
+                        <td align="center"  ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >7</td>
+                        <td>Nguyễn Ngọc kiên Cường </td>
+                        <td align="center"  >22/08/2007</td>
+                        <td></td>
+                        <td align="center"  ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center"  >8</td>
+                        <td>Đỗ Nguyễn Ngọc Duy</td>
+                        <td align="center" >08/01/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA" >
+                    <td align="center"  >9</td>
+                        <td  >Lê Thị Ngọc Điệp</td>
+                        <td align="center"  >29/12/2007</td>
+                        <td ></td>
+                        <td align="center"  ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                    <td align="center" >10</td>
+                        <td   >Phan Hữu Đức</td>
+                        <td align="center" >29/03/2007</td>
+                        <td align="center" >Tổ trưởng tổ 1</td>
+                        <td align="center"  ><a href="Đức.html" target="_blank">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >11</td>
+                        <td>Trịnh Ngọc Hải</td>
+                        <td align="center" >08/06/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >12</td>
+                        <td >Nguyễn Lê Ngọc Hân</td>
+                        <td align="center" >07/09/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >13</td>
+                        <td>Võ Huỳnh Ngọc Hân</td>
+                        <td align="center" >30/01/2007</td>
+                        <td align="center" >Sao đỏ</td>
+                        <td align="center"  ><a href="Hân.html" target="_blank">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <td align="center"  >14</td>
+                        <td >Châu Thị Kim Hoa</td>
+                        <td align="center">02/06/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center">15</td>
+                        <td >Nguyễn Hoàng Huy</td>
+                        <td align="center">28/09/2006</td>
+                        <td align="center">Lớp phó lao động</td>
+                        <td align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center">16</td>
+                        <td>Nguyễn Phúc Gia Hưng</td>
+                        <td align="center" >02/08/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA" >
+                        <td align="center" >17</td>
+                        <td>Nguyễn Bách Khang</td>
+                        <td align="center" >22/07/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >18</td>
+                        <td >Tạ Vũ Chí Khang</td>
+                        <td align="center" >28/08/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                    <td  align="center">19</td>
+                        <td  >Trần Minh Khang</td>
+                        <td align="center" >19/10/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr >
+                    <td align="center" >20</td>
+                        <td >Nguyễn Thành Luân</td>
+                        <td align="center" >05/06/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >21</td>
+                        <td  >Trương Xuân Ngọc Mai</td>
+                        <td align="center" >26/09/2007</td>
+                        <td align="center" >Sao đỏ</td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr  >
+                        <td align="center" >22</td>
+                        <td>Nguyễn Lê Nam</td>
+                        <td align="center" >15/08/2007</td>
+                        <td align="center" ></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center">23</td>
+                        <td >Mai Phương Ngân</td>
+                        <td align="center">16/08/2007</td>
+                        <td></td>
+                        <td align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <td align="center" >24</td>
+                        <td >Nguyễn Tuyết Ngân</td>
+                        <td align="center">20/12/2007</td>
+                        <td align="center"></td>
+                        <td align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center" >25</td>
+                        <td>Vũ Ngọc Thy Ngân</td>
+                        <td align="center">05/07/2007</td>
+                        <td align="center" >Tổ trưởng tổ 2</td>
+                        <td align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >26</td>
+                        <td >Trần Thị Tuyết Nhung</td>
+                        <td align="center">11/08/2007</td>
+                        <td align="center">Tổ trưởng tổ 4</td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA" >
+                        <td align="center" >27</td>
+                        <td >Cao Văn Phúc</td>
+                        <td  align="center">13/08/2007</td>
+                        <td  align="center">Lớp trưởng</td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >28</td>
+                        <td>Ngô Trần Anh Phúc</td>
+                        <td align="center" >04/10/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center" >29</td>
+                        <td>Tôn Thất Minh Quân</td>
+                        <td align="center" >8/11/2007</td>
+                        <td align="center" ></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                    <td  align="center">30</td>
+                        <td>Phan Trần Ngọc Quý</td>
+                        <td  align="center">14/02/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >31</td>
+                        <td>Mai Thúc Sinh</td>
+                        <td  align="center">16/08/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="Sinh.html" target="_blank">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >32</td>
+                        <td>Lê Đỗ Minh Tài</td>
+                        <td  align="center">22/04/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA" >
+                        <td  align="center">33</td>
+                        <td>Đinh Nguyễn Minh Thơ</td>
+                        <td align="center" >13/10/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <td align="center" >34</td>
+                        <td>Nguyễn Huỳnh Ánh Thư</td>
+                        <td align="center" >16/07/2007</td>
+                        <td  align="center">Bí thư</td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    <tr bgcolor="#FAFAFA">
+                    <td  align="center">35</td>
+                        <td>Nguyễn Khánh Thy</td>
+                        <td align="center" >01/04/2007</td>
+                        <td align="center" >Lớp phó học tập</td>
+                        <td align="center" ><a href="Thy.html" target="_blank">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td  align="center">36</td>
+                        <td >Vũ Thủy Tiên</td>
+                        <td  align="center">24/12/2007</td>
+                        <td align="center" >Thủ quỹ</td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td  align="center">37</td>
+                        <td>Đào Nguyễn Diệp Tiền</td>
+                        <td  align="center">14/05/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td  align="center">38</td>
+                        <td>Lê Minh Tiến</td>
+                        <td  align="center">30/11/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center" >39</td>
+                        <td>Huỳnh Đặng Quỳnh Trang</td>
+                        <td align="center" >23/10/2007</td>
+                        <td></td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr >
+                    <tr>
+                    <td  align="center">40</td>
+                        <td >Phạm Minh Trang</td>
+                        <td align="center" >17/11/2007</td>
+                        <td  align="center">Tổ trưởng tổ 3</td>
+                        <td align="center" ><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                    <td  align="center" >41</td>
+                        <td>Trần Ngọc Thanh Trúc</td>
+                        <td  align="center">03/11/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td  align="center">42</td>
+                        <td>Lê Thành Trường</td>
+                        <td  align="center">25/02/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                        <td align="center" >43</td>
+                        <td>Nguyễn Quang Vịnh</td>
+                        <td  align="center">02/03/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                        <td align="center" >44</td>
+                        <td>Nguyễn Thảo Vy</td>
+                        <td  align="center">13/08/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr bgcolor="#FAFAFA">
+                    <td align="center" >45</td>
+                        <td >Phan Thị Kim Yến</td>
+                        <td  align="center">10/03/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                    <tr>
+                    <td  align="center">46</td>
+                        <td >Hoàng Hải Đăng</td>
+                        <td  align="center">09/07/2007</td>
+                        <td></td>
+                        <td  align="center"><a href="#">🔍 Xem chi tiết</a></td>
+                    </tr>
+                </table>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>

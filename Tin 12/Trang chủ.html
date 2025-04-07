@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ 12A6</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1e1e2f; 
+    display: flex;
+    min-height: 100vh;
+  }
+        .sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+h2, h3 {
+  color: #fff;
+}
+          .sidebar {
+            width: 220px;
+            background: #004466;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            box-shadow: 3px 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .sidebar a {
+            display: block;
+            color:  white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            margin: 10px 0;
+            transition: 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .sidebar a:hover {
+            background: #00aabb;
+        }
+
+
+    main {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url('https://i.postimg.cc/SNd9xW35/481337815-599813406230357-7665789168530239569-n.jpg') no-repeat center center/cover;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      color: #00d9ff;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      color:#00d9ff;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: auto;
+      color: white; 
+    }
+
+    .achievements {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .achievements h3 {
+      color: #61dafb;
+      margin-top: 20px;
+    }
+
+    .achievements ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .achievements li {
+      margin-bottom: 10px;
+      color: white
+    }
+
+    .timetable {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .timetable h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00d9ff;
+    }
+
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+    }
+
+    table, th, td {
+      border: 1px solid #61dafb;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0f4c75;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    tr:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <ul>
+      <li><a href="Trang chủ.html" target="_blank">🏠 Trang chủ</a></li>
+      <li><a href="Hoạt động.html" target="_blank">🎉 Hoạt động lớp</a></li>
+      <li><a href="Thành viên lớp.html" target="_blank">👥 Thành viên lớp</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1> CHÀO MỪNG ĐẾN VỚI KỶ YẾU LỚP 12A6</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Thông tin lớp</h2>
+      <p>Lớp: 12A6 (Niên khóa 2022-2025)</p>
+      <p>Trường THPT Phạm Văn Đồng</p>
+      <p>Địa chỉ: 5 Trường Sơn, Vĩnh Nguyên, Nha Trang, Khánh Hòa</p>
+      <p>GVCN: Cô Dương Thị Kim Trúc</p>
+
+      <h2>Thành tích nổi bật</h2>
+      <div class="achievements">
+        <h3>📘 Năm lớp 10 (2022-2023)</h3>
+        <ul>
+          <li>🏆 KK - Video tiếng hát HS "Tự hào Khánh Hòa"</li>
+          <li>🏆 Giải Ba Dân vũ 26/3</li>
+          <li>🏆 Nhất PVD's Got Talent - "Mẹ tôi"</li>
+          <li>🏆 KK PVD's Got Talent - "Dậy mà đi"</li>
+        </ul>
+
+        <h3>📗 Năm lớp 11 (2023-2024)</h3>
+        <ul>
+          <li>🏆 Nhất Glamour</li>
+          <li>🏆 Nhất PVD's Got Talent - "Việt Nam trong tôi là"</li>
+          <li>🏆 Nhì Thư pháp</li>
+          <li>🏆 Ba PVD's Got Talent - "Con cò"</li>
+          <li>🏆 Ba Lồng đèn</li>
+        </ul>
+
+        <h3>📙 Năm lớp 12 (2024-2025)</h3>
+        <ul>
+          <li>🏆 Nhất Giai điệu tuổi hồng - "Một vòng Việt Nam" (Tỉnh)</li>
+          <li>🏆 Nhì Giai điệu tuổi hồng - "Lá Cờ" (Tỉnh)</li>
+          <li>🏆 Nhất PVD's Got Talent - "Một vòng Việt Nam"</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="timetable">
+      <h2>Thời khóa biểu lớp 12A6</h2>
+      <table>
+        <tr>
+          <th>Tiết</th>
+          <th>Thứ 2</th>
+          <th>Thứ 3</th>
+          <th>Thứ 4</th>
+          <th>Thứ 5</th>
+          <th>Thứ 6</th>
+          <th>Thứ 7</th>
+        </tr>
+        <tr>
+          <td>1</td><td>Chào cờ</td><td>Anh</td><td>Toán</td><td>Sinh</td><td>Văn</td><td>-</td>
+        </tr>
+        <tr>
+          <td>2</td><td>KTPL</td><td>Anh</td><td>Toán</td><td>Tin</td><td>Văn</td><td>-</td>
+        </tr>
+        <tr>
+          <td>3</td><td>Anh</td><td>KTPL</td><td>Sinh</td><td>Tin</td><td>Toán</td><td>-</td>
+        </tr>
+        <tr>
+          <td>4</td><td>Lịch sử</td><td>HNTN</td><td>Lý</td><td>Văn</td><td>Toán</td><td>-</td>
+        </tr>
+        <tr>
+          <td>5</td><td>Lý</td><td>HNTN</td><td>Lý</td><td>Văn</td><td>SHL</td><td>-</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

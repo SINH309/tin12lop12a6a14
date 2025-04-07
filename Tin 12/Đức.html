@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoạt động</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 220px;
+      background: #004466;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      box-shadow: 3px 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 12px;
+      margin: 10px 0;
+      transition: 0.3s;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+    }
+
+    .sidebar a:hover {
+      background: #00aabb;
+    }
+
+    .content {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      color: #00d9ff;
+      font-size: 45px;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .section {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+      margin: 30px auto;
+      padding: 30px;
+      max-width: 900px;
+      color: #333;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      color: #004466;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      text-align: left;
+    }
+
+    .profile {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 260px;
+      object-fit: cover;
+      border: 2px solid #999;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+
+    .info {
+      flex: 1;
+      min-width: 250px;
+      text-align: left;
+    }
+
+    .info p {
+      font-size: 19px;
+      margin: 10px 0;
+    }
+
+    .info span {
+      font-weight: bold;
+      color: #004466;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .sidebar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="Trang chủ.html" target="_blank">🏠 Trang chủ</a>
+    <a href="Hoạt động.html" target="_blank">🎉 Hoạt động</a>
+    <a href="Thành viên lớp.html" target="_blank">👥 Thành viên lớp</a>
+  </div>
+
+  <div class="content">
+    <h1></h1>
+    
+    <div class="section">
+      <div class="section-title">Thông tin học sinh</div>
+      <div class="profile">
+      <img class="profile-img" src="https://i.postimg.cc/BvbZRxNG/IMG-9213.jpg" alt="Ảnh đại diện">
+      <div class="info">
+        <p><span>Họ và tên:</span> Phan Hữu Đức</p>
+        <p><span>Ngày sinh:</span> 29/03/2007</p>
+        <p><span>Giới tính:</span> Nam</p>
+        <p><span>Email:</span> phanhuuduc@gmail.com </p>
+        <p><span>Chức vụ:</span> Tổ trưởng tổ 1 </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
